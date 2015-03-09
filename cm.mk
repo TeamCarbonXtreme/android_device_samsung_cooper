@@ -4,6 +4,9 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/cooper/full_cooper.mk)
 
+# CXR VENDOR
+$(call inherit-product, vendor/cxr/config/cxr_common.mk)
+
 # Inherit some common CM stuff.
 TARGET_SCREEN_HEIGHT := 480
 TARGET_SCREEN_WIDTH := 320
